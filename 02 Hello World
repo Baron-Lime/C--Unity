@@ -1,0 +1,30 @@
+编写一个新程序 Hello World
+项目名称&解决方案名称：
+一开始，输入项目名称，默认解决方案名称与其相同，但后面改了解决方案名称，就可以分开改了。
+项目属于解决方案，一个解决方案下面可能有很多项目，一个解决方案是解决一个问题，但解决一个问题可能需要很多个因素（子项目）
+※不必勾选“将解决方案和项目放在同一目录中”，否则两个名称会一致
+
+视图- 解决方案资源管理器- 显示你的项目- Program.cs 就是默认给我们编写代码的
+                                     - APP.config 配对文件
+                                     - 引用 我们使用的基类库
+点击启动，出现一个窗口（控制台呈现），代码运行停止后，窗口会自动消失。如果不想让代码停止运行，可以crl+F5 （调试-开始执行）
+窗口按任意键，就会消失，因为我们现在并没有写任何功能。
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _01_Hello_World
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+
+※虽然不理解什么是Console，为什么要用它，但是初学嘛，模仿就对了。打完这行代码，再Crl+F5,窗口就出现Hello World了。
